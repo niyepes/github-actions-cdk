@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 import * as cdk from 'aws-cdk-lib/core';
-import { GithubActionsCdkStack } from '../lib/github actions cdk-stack';
+import { GithubActionsCdkStack } from '../lib/github-actions-cdk-stack';
 
 const app = new cdk.App();
 new GithubActionsCdkStack(app, 'GithubActionsCdkStack', {
